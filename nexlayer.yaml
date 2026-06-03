@@ -1,0 +1,11 @@
+application:
+  name: wild-peak-memos
+  pods:
+    - name: app
+      image: "# filled by pipeline"
+      path: /
+      servicePorts:
+        - 5230
+      vars:
+        MEMOS_PORT: "5230"
+        TZ: "UTC"
