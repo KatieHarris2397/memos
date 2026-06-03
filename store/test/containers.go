@@ -331,7 +331,7 @@ func StartMemosContainer(ctx context.Context, cfg MemosContainerConfig) (testcon
 			req.Image = ""
 			req.FromDockerfile = testcontainers.FromDockerfile{
 				Context:    "../../",
-				Dockerfile: "scripts/Dockerfile",
+				Dockerfile: "Dockerfile",
 			}
 		}
 	}

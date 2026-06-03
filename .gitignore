@@ -11,6 +11,9 @@ memos
 
 .DS_Store
 
+# macOS AppleDouble metadata files
+._*
+
 # Jetbrains
 .idea
 

@@ -37,7 +37,7 @@ RUN apk add --no-cache tzdata ca-certificates su-exec && \
 
 # Copy binary and entrypoint to /usr/local/memos
 COPY --from=backend /backend-build/memos /usr/local/memos/memos
-COPY --from=backend --chmod=755 /backend-build/scripts/entrypoint.sh /usr/local/memos/entrypoint.sh
+COPY --from=backend --chmod=755 /backend-build/entrypoint.sh /usr/local/memos/entrypoint.sh
 
 # Run as root to fix permissions, entrypoint will drop to nonroot
 USER root

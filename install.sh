@@ -24,8 +24,8 @@ Environment:
   REPO                  GitHub repository in owner/name form. Defaults to usememos/memos.
 
 Examples:
-  curl -fsSL https://raw.githubusercontent.com/usememos/memos/main/scripts/install.sh | sh
-  curl -fsSL https://raw.githubusercontent.com/usememos/memos/main/scripts/install.sh | sh -s -- --version 0.28.1
+  curl -fsSL https://raw.githubusercontent.com/usememos/memos/main/install.sh | sh
+  curl -fsSL https://raw.githubusercontent.com/usememos/memos/main/install.sh | sh -s -- --version 0.28.1
 EOF
 }
 

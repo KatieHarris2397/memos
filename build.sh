@@ -3,7 +3,7 @@
 set -e
 
 # Change to repo root
-cd "$(dirname "$0")/../"
+cd "$(dirname "$0")"
 
 OS=$(uname -s)
 

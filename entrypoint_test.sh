@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Test script for entrypoint.sh file_env function
-# Run: ./scripts/entrypoint_test.sh
+# Run: ./entrypoint_test.sh
 
 set -e
 

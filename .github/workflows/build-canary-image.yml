@@ -93,7 +93,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          file: ./scripts/Dockerfile
+          file: ./Dockerfile
           platforms: ${{ matrix.platform }}
           build-args: |
             VERSION=canary

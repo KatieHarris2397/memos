@@ -103,4 +103,4 @@ web/src/
 - **frontend-tests.yml:** Node 24, pnpm 11, lint + build
 - **proto-linter.yml:** buf lint + format check
 - **release.yml:** On version tags, builds frontend once, packages binaries for Linux/macOS/Windows, and publishes release container images/tags
-- **Docker:** Multi-stage (`scripts/Dockerfile`), Alpine 3.21, non-root user, port 5230, multi-arch (amd64/arm64/arm/v7)
+- **Docker:** Multi-stage (`Dockerfile`), Alpine 3.21, non-root user, port 5230, multi-arch (amd64/arm64/arm/v7)

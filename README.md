@@ -63,12 +63,12 @@ docker run -d \
 
 Open `http://localhost:5230` and start writing!
 
-The Dockerfile used to build the image is located at [`scripts/Dockerfile`](scripts/Dockerfile).
+The Dockerfile used to build the image is located at [`Dockerfile`](Dockerfile).
 
 ### Native Binary
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/usememos/memos/main/scripts/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/usememos/memos/main/install.sh | sh
 ```
 
 ### Try the Live Demo
