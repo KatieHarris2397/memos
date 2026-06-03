@@ -63,6 +63,8 @@ docker run -d \
 
 Open `http://localhost:5230` and start writing!
 
+The Dockerfile used to build the image is located at [`scripts/Dockerfile`](scripts/Dockerfile).
+
 ### Native Binary
 
 ```bash
